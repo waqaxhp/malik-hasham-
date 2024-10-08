@@ -1,0 +1,18 @@
+.fixed-bg {
+  background-image: url('https://storage.googleapis.com/a1aa/image/d7A88qonQRZJKdwaBXCxnNfKkqi2XO7aA30e3fSlpLvtqiHnA.jpg');
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.scrole-test-div {
+  height: 800px;
+  background-color: gray;
+  width: 100%;
+}
+.scrole-test-div1 {
+  height: 800px;
+  background-color: rgb(34, 107, 40);
+  width: 100%;
+}

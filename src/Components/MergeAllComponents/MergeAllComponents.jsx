@@ -1,7 +1,7 @@
 import Navbar from '../Navebar/Navebar'
 import Home from '../Home/Home'
 import Services from '../Services/Services'
-// import Projects from './Components/Projects/Projects.jsx'
+import Projects from '../Projects/Projects'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 function MergeAllComponents() {
@@ -12,7 +12,7 @@ function MergeAllComponents() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<Services />} />
-          {/* <Route path="/projects" element={<Projects />} /> */}
+          <Route path="/projects" element={<Projects />} />
           {/* Add other routes for Consulting, Pricing, etc. */}
         </Routes>
       </div>
