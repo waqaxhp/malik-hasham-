@@ -2,7 +2,7 @@ import './App.css'
 // import Navbar from './Components/Navebar/Navebar.jsx'
 // import Home from './Components/Home/Home.jsx'
 import AllComponents from './Components/MergeAllComponents/MergeAllComponents.jsx'
-// import Services from './Components/Services/Services.jsx'
+import Footer from './Components/Footer/Footer.jsx'
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       {/* <Navbar /> */}
       {/* <Home /> */}
       <AllComponents />
-      {/* <Services /> */}
+      <Footer />
     </div>
   )
 }

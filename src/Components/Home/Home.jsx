@@ -16,7 +16,7 @@ const Home = () => {
   }
 
   return (
-    <div className="home-component">
+    <div className="home-component" id="#home">
       <div className="text-content">
         <h5 className="subheading">Accounting & Tax Services</h5>
         <h1 className="heading">
