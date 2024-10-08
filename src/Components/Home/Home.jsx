@@ -31,9 +31,13 @@ const Home = () => {
           in the USA & UK.
         </p>
         <button className="button">Get A Free Quote</button>
+        <br />
       </div>
       <div className="animation-container">
-        <Lottie options={defaultOptions} height={400} width={400} />
+        <div className="image-test">
+          <Lottie options={defaultOptions} />
+          {/* height={400} width={400} */}
+        </div>
       </div>
     </div>
   )

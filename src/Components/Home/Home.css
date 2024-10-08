@@ -1,10 +1,11 @@
 .home-component {
   display: flex;
   align-items: center;
+  justify-content: left;
   justify-content: space-around;
   padding: 20px;
   background-color: #f9f9f9;
-  height: 70vh;
+  height: 80vh;
 }
 
 .text-content {
@@ -39,6 +40,19 @@
 
 .animation-container {
   max-width: 600px;
+}
+.image-test {
+  /* background-color: #008000; */
+  min-width: 300px;
+  height: 400px;
+  margin-left: -100px;
+  padding-top: 10px;
+}
+.image-test Lottie {
+  min-width: 300px;
+  height: 400px;
+  margin-left: -100px;
+  margin-top: 20px;
 }
 @media (max-width: 768px) {
   .home-component {
