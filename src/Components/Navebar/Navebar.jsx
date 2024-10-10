@@ -1,20 +1,22 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom' // Import Link for navigation
 import Logo from '../Assets/Navbar logo.png.png'
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false)
-  const [activeLink, setActiveLink] = useState('Home')
-  const [isResourcesOpen, setIsResourcesOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false) // State for mobile menu toggle
+  const [activeLink, setActiveLink] = useState('Home') // Track active link
+  const [isResourcesOpen, setIsResourcesOpen] = useState(false) // State for Resources dropdown
 
+  // Toggle for mobile menu
   const toggleMenu = () => {
     setIsOpen(!isOpen)
   }
 
+  // Toggle for Resources dropdown
   const toggleResources = () => {
     setIsResourcesOpen(!isResourcesOpen)
   }
 
+  // Function to set active link
   const handleLinkClick = (link) => {
     setActiveLink(link)
   }
@@ -22,17 +24,19 @@ const Navbar = () => {
   return (
     <nav className="bg-teal-700 p-4">
       <div className="container mx-auto flex justify-between items-center">
+        {/* Logo Section */}
         <div className="flex items-center">
           <img src={Logo} alt="Logo" className="h-10 mr-2" />
           <span className="text-white text-2xl font-bold">FinTax</span>
         </div>
 
+        {/* Desktop Menu */}
         <div className="hidden md:flex space-x-6">
           {['Home', 'Services', 'Projects', 'Consulting', 'Pricing'].map(
             (link) => (
-              <Link
+              <a
                 key={link}
-                to={link === 'Home' ? '/' : `/${link.toLowerCase()}`}
+                href={`#${link.toLowerCase()}`}
                 className={`text-white hover:text-yellow-500 transition duration-300 ease-in-out ${
                   activeLink === link
                     ? 'text-yellow-500 font-bold'
@@ -41,10 +45,11 @@ const Navbar = () => {
                 onClick={() => handleLinkClick(link)}
               >
                 {link}
-              </Link>
+              </a>
             )
           )}
 
+          {/* Dropdown for Resources */}
           <div className="relative group">
             <button
               className="text-white hover:text-yellow-500 flex items-center transition duration-300 ease-in-out"
@@ -52,33 +57,35 @@ const Navbar = () => {
             >
               Resources <span className="ml-1">▼</span>
             </button>
+            {/* Dropdown content */}
             <div
               className={`absolute right-0 mt-2 w-48 bg-white shadow-lg rounded-lg ${
                 isResourcesOpen ? 'block' : 'hidden'
               }`}
             >
-              <Link
-                to="/about"
+              <a
+                href="#resource1"
                 className="block px-4 py-2 text-gray-700 hover:bg-teal-100"
               >
                 About
-              </Link>
-              <Link
-                to="/contact"
+              </a>
+              <a
+                href="#resource2"
                 className="block px-4 py-2 text-gray-700 hover:bg-teal-100"
               >
                 Contact
-              </Link>
-              <Link
-                to="/career"
+              </a>
+              <a
+                href="#resource3"
                 className="block px-4 py-2 text-gray-700 hover:bg-teal-100"
               >
                 Career
-              </Link>
+              </a>
             </div>
           </div>
         </div>
 
+        {/* Mobile Menu Icon */}
         <button
           onClick={toggleMenu}
           className="block md:hidden text-white focus:outline-none"
@@ -100,25 +107,27 @@ const Navbar = () => {
         </button>
       </div>
 
+      {/* Mobile Menu */}
       <div className={`${isOpen ? 'block' : 'hidden'} md:hidden`}>
         {['Home', 'Services', 'Projects', 'Consulting', 'Pricing'].map(
           (link) => (
-            <Link
+            <a
               key={link}
-              to={link === 'Home' ? '/' : `/${link.toLowerCase()}`}
+              href={`#${link.toLowerCase()}`}
               className={`block px-4 py-2 text-white hover:bg-teal-600 transition duration-300 ease-in-out ${
                 activeLink === link ? 'bg-yellow-500' : ''
               }`}
               onClick={() => {
                 handleLinkClick(link)
-                toggleMenu()
+                toggleMenu() // Close menu on click
               }}
             >
               {link}
-            </Link>
+            </a>
           )
         )}
 
+        {/* Resources dropdown for mobile */}
         <div className="block px-4 py-2 text-white hover:bg-teal-600">
           <button
             onClick={toggleResources}
@@ -128,24 +137,24 @@ const Navbar = () => {
           </button>
           {isResourcesOpen && (
             <div className="bg-white shadow-lg rounded-lg">
-              <Link
-                to="/about"
+              <a
+                href="#resource1"
                 className="block px-4 py-2 text-gray-700 hover:bg-teal-100"
               >
                 About
-              </Link>
-              <Link
-                to="/contact"
+              </a>
+              <a
+                href="#resource2"
                 className="block px-4 py-2 text-gray-700 hover:bg-teal-100"
               >
                 Contact
-              </Link>
-              <Link
-                to="/career"
+              </a>
+              <a
+                href="#resource3"
                 className="block px-4 py-2 text-gray-700 hover:bg-teal-100"
               >
                 Career
-              </Link>
+              </a>
             </div>
           )}
         </div>

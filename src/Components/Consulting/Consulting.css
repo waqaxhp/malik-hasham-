@@ -1,0 +1,141 @@
+.clients {
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  padding: 50px 0;
+  background-color: #f9f9f9;
+}
+
+.clients h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+.clients-clients-slider {
+  display: flex;
+  animation: scroll 20s linear infinite;
+}
+
+.clients-clients-slide-track {
+  display: flex;
+}
+
+.clients-slide {
+  min-width: 150px; /* Adjust according to your image sizes */
+  margin-right: 20px; /* Space between images */
+  flex-shrink: 0; /* Prevent shrinking */
+}
+
+.clients-slide img {
+  width: 100%; /* Make the image responsive */
+  height: auto; /* Maintain aspect ratio */
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%); /* Adjust based on half the slide width */
+  }
+}
+
+/* Optional: Add responsiveness */
+@media (max-width: 768px) {
+  .clients-slide {
+    min-width: 100px; /* Adjust for smaller screens */
+  }
+}
+
+/* Hero section styles */
+.clients-hero {
+  background-image: url('../Assets/st_about_accordian.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: relative;
+}
+
+.clients-hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+}
+
+.clients-hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  z-index: 1;
+  padding: 0 20px;
+}
+
+.clients-hero-text {
+  max-width: 600px;
+}
+
+.clients-hero-text h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.clients-hero-text p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.clients-hero-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.cta-button:hover {
+  background-color: #3a6655;
+  color: white;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .clients-hero-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .clients-hero-text h1 {
+    font-size: 2em;
+  }
+
+  .clients-hero-text p {
+    font-size: 1em;
+  }
+
+  .cta-button {
+    font-size: 1em;
+    padding: 12px 25px;
+  }
+
+  .clients-hero-button {
+    justify-content: center;
+  }
+}
