@@ -1,5 +1,5 @@
-import React from 'react'
-import './Footer.css'
+import React from "react";
+import "./Footer.css";
 
 function Footer() {
   return (
@@ -13,7 +13,7 @@ function Footer() {
                   <i className="fas fa-map-marker-alt"></i>
                   <div className="cta-text">
                     <h4>Find us</h4>
-                    <span>1010 Avenue, sw 54321, Chandigarh</span>
+                    <span>Muzaffargarh,Malik Waqax home no.7</span>
                   </div>
                 </div>
               </div>
@@ -22,7 +22,7 @@ function Footer() {
                   <i className="fas fa-phone"></i>
                   <div className="cta-text">
                     <h4>Call us</h4>
-                    <span>9876543210</span>
+                    <span>+923356863576</span>
                   </div>
                 </div>
               </div>
@@ -31,7 +31,7 @@ function Footer() {
                   <i className="far fa-envelope-open"></i>
                   <div className="cta-text">
                     <h4>Mail us</h4>
-                    <span>mail@info.com</span>
+                    <span>waqas@info.com</span>
                   </div>
                 </div>
               </div>
@@ -140,8 +140,10 @@ function Footer() {
               <div className="col-xl-6 col-lg-6 text-center text-lg-left">
                 <div className="copyright-text">
                   <p>
-                    Copyright &copy; 2018, All Right Reserved{' '}
-                    <a href="https://codepen.io/anupkumar92/">Anup</a>
+                    Copyright &copy; 2024, All Right Reserved{" "}
+                    <a href="https://www.linkedin.com/in/waqaxmalik/">
+                      Malik Waqas
+                    </a>
                   </p>
                 </div>
               </div>
@@ -171,7 +173,7 @@ function Footer() {
         </div>
       </footer>
     </>
-  )
+  );
 }
 
-export default Footer
+export default Footer;
