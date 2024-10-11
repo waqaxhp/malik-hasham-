@@ -194,7 +194,7 @@ const Navbar = () => {
         {/* Logo Section */}
         <div className="flex items-center">
           <img src={Logo} alt="Logo" className="h-10 mr-2" />
-          <span className="text-white text-2xl font-bold">FinTax</span>{" "}
+          <span className="text-white text-2xl font-bold">Hasham.DM</span>{" "}
         </div>
 
         {/* Desktop Menu */}
