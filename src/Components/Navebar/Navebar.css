@@ -1,0 +1,12 @@
+/* .items-center img {
+  width: 160px;
+  height: 60px;
+} */
+.nav-heding {
+  /* margin-top: -3px; */
+  text-align: center;
+  font-size: small;
+}
+.nav-heding p {
+  width: 100px;
+}
