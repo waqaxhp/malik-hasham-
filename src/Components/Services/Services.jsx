@@ -19,10 +19,7 @@ function Services() {
                 </div>
                 <p>
                   <strong>
-                    Prioritize quality in every aspect of development. Test
-                    thoroughly to identify and fix bugs, ensure cross-browser
-                    compatibility, and optimize performance for a seamless user
-                    experience.
+                  Prioritize quality in every ad campaign. Conduct thorough testing to spot and resolve issues, ensure platform compatibility, and optimize performance for maximum engagement and impact across all channels.
                   </strong>
                 </p>
               </div>
@@ -30,18 +27,18 @@ function Services() {
           </div>
           <div class="row">
             {/* <!--START SINGLE SERVICE AREA--> */}
-            <div class="col-md-6 col-lg-4 col-sm-12">
+            <div class="col-md-6 col-lg-4 col-sm-12 card-service">
               <div class="single_service hvr-curl-top-right">
                 <div class="single_service-left">
                   <div class="icon">
-                    <i class="fa fa-laptop"></i>
+                    {/* <i class="fa fa-laptop"></i> */}
+                    <i class="fa-brands fa-square-facebook"></i>
                   </div>
                 </div>
                 <div class="single_service-body">
-                  <h4 class="single_service-heading">Web Design</h4>
+                  <h4 class="single_service-heading">Facebook Ads</h4>
                   <p>
-                    Creating visually appealing and user-friendly websites
-                    tailored to the client's needs and branding requirements.
+                  Maximize your business reach with highly targeted and effective Facebook ad campaigns.
                   </p>
                 </div>
               </div>
@@ -52,14 +49,13 @@ function Services() {
               <div class="single_service hvr-curl-top-right">
                 <div class="single_service-left">
                   <div class="icon">
-                    <i class="fas fa-quidditch"></i>
+                  <i class="fa-brands fa-square-instagram"></i>
                   </div>
                 </div>
                 <div class="single_service-body">
-                  <h4 class="single_service-heading">Logo Design</h4>
+                  <h4 class="single_service-heading">Instagram Ads</h4>
                   <p>
-                    The designer meets with the client to understand their brand
-                    identity, target audience, values, and preferences.
+                  Drive engagement and conversions with visually captivating Instagram advertisements.
                   </p>
                 </div>
               </div>
@@ -70,14 +66,13 @@ function Services() {
               <div class="single_service hvr-curl-top-right">
                 <div class="single_service-left">
                   <div class="icon">
-                    <i class="fas fa-newspaper"></i>
+                  <i class="fa-brands fa-google"></i>
                   </div>
                 </div>
                 <div class="single_service-body">
-                  <h4 class="single_service-heading">Ui & Ux Design</h4>
+                  <h4 class="single_service-heading">Google Ads</h4>
                   <p>
-                    The designer meets with the client to understand their brand
-                    identity, target audience, values, and preferences
+                  Increase visibility and traffic through optimized Google Ads tailored to your audience.
                   </p>
                 </div>
               </div>
@@ -88,14 +83,13 @@ function Services() {
               <div class="single_service hvr-curl-top-right">
                 <div class="single_service-left">
                   <div class="icon">
-                    <i class="fas fa-smile"></i>
+                  <i class="fa-brands fa-youtube"></i>
                   </div>
                 </div>
                 <div class="single_service-body">
-                  <h4 class="single_service-heading">App Development:</h4>
+                  <h4 class="single_service-heading">Youtube Ads</h4>
                   <p>
-                    The designer meets with the client to understand their brand
-                    identity, target audience, values, and preferences.
+                  Grow your brand with engaging video ads placed strategically on YouTube.
                   </p>
                 </div>
               </div>
@@ -106,14 +100,13 @@ function Services() {
               <div class="single_service hvr-curl-top-right">
                 <div class="single_service-left">
                   <div class="icon">
-                    <i class="fa fa-crop"></i>
+                  <i class="fa-brands fa-usps"></i>
                   </div>
                 </div>
                 <div class="single_service-body">
-                  <h4 class="single_service-heading">Devlopment</h4>
+                  <h4 class="single_service-heading">Graphic Design</h4>
                   <p>
-                    The designer meets with the client to understand their brand
-                    identity, target audience, values, and preferences
+                  Create visually stunning designs that elevate your brand and captivate your audience.
                   </p>
                 </div>
               </div>
@@ -124,19 +117,122 @@ function Services() {
               <div class="single_service hvr-curl-top-right">
                 <div class="single_service-left">
                   <div class="icon">
-                    <i class="fa fa-cogs"></i>
+                  <i class="fa-solid fa-envelopes-bulk"></i>
                   </div>
                 </div>
                 <div class="single_service-body">
-                  <h4 class="single_service-heading">Security System</h4>
+                  <h4 class="single_service-heading">Post Design</h4>
                   <p>
-                    The designer meets with the client to understand their brand
-                    identity, target audience, values, and preferences
+                  Professionally designed social media posts that resonate and engage your followers.
                   </p>
                 </div>
               </div>
             </div>
             {/* <!--/END SINGLE SERVICE AREA--> */}
+            
+            {/* <!--START SINGLE SERVICE AREA--> */}
+            <div class="col-md-6 col-lg-4 col-sm-12">
+              <div class="single_service hvr-curl-top-right">
+                <div class="single_service-left">
+                  <div class="icon">
+                  <i class="fa-solid fa-truck-droplet"></i>
+                  </div>
+                </div>
+                <div class="single_service-body">
+                  <h4 class="single_service-heading">Dropshiping Post Design</h4>
+                  <p>
+                  Attract more customers with optimized, eye-catching post designs tailored for dropshipping.
+                  </p>
+                </div>
+              </div>
+            </div>
+            {/* <!--/END SINGLE SERVICE AREA-->
+        <!--START SINGLE SERVICE AREA--> */}
+            <div class="col-md-6 col-lg-4 col-sm-12">
+              <div class="single_service hvr-curl-top-right">
+                <div class="single_service-left">
+                  <div class="icon">
+                  <i class="fa-solid fa-audio-description"></i>
+                  </div>
+                </div>
+                <div class="single_service-body">
+                  <h4 class="single_service-heading">Video Ads</h4>
+                  <p>
+                  Deliver your message with powerful and creative video ads that capture attention.
+                  </p>
+                </div>
+              </div>
+            </div>
+            {/* <!--/END SINGLE SERVICE AREA--> */}
+            {/* <!--START SINGLE SERVICE AREA--> */}
+            <div class="col-md-6 col-lg-4 col-sm-12">
+              <div class="single_service hvr-curl-top-right">
+                <div class="single_service-left">
+                  <div class="icon">
+                  <i class="fa-brands fa-tiktok"></i>
+                  </div>
+                </div>
+                <div class="single_service-body">
+                  <h4 class="single_service-heading">TikTok Ads</h4>
+                  <p>
+                  Tap into TikTok's vast audience with innovative ads that drive virality and engagement.
+                  </p>
+                </div>
+              </div>
+            </div>
+            {/* <!--/END SINGLE SERVICE AREA-->
+        <!--START SINGLE SERVICE AREA--> */}
+            <div class="col-md-6 col-lg-4 col-sm-12">
+              <div class="single_service hvr-curl-top-right">
+                <div class="single_service-left">
+                  <div class="icon">
+                  <i class="fa-brands fa-tiktok"></i>
+                  </div>
+                </div>
+                <div class="single_service-body">
+                  <h4 class="single_service-heading">TikTok Vieo Ads</h4>
+                  <p>
+                  TikTok Video Ads: Create fun and engaging TikTok video ads that resonate with younger audiences and promote your brand.
+                  </p>
+                </div>
+              </div>
+            </div>
+            {/* <!--/END SINGLE SERVICE AREA-->
+        <!--START SINGLE SERVICE AREA--> */}
+            <div class="col-md-6 col-lg-4 col-sm-12">
+              <div class="single_service hvr-curl-top-right">
+                <div class="single_service-left">
+                  <div class="icon">
+                  <i class="fa-solid fa-video"></i>
+                  </div>
+                </div>
+                <div class="single_service-body">
+                  <h4 class="single_service-heading">Video Creation</h4>
+                  <p>
+                  Professional video production services for compelling content that boosts your online presence.
+                  </p>
+                </div>
+              </div>
+            </div>
+            {/* <!--/END SINGLE SERVICE AREA--> */}
+            {/* <!--START SINGLE SERVICE AREA--> */}
+            <div class="col-md-6 col-lg-4 col-sm-12">
+              <div class="single_service hvr-curl-top-right">
+                <div class="single_service-left">
+                  <div class="icon">
+                  <i class="fa-solid fa-people-roof"></i>
+                  </div>
+                </div>
+                <div class="single_service-body">
+                  <h4 class="single_service-heading">Socila Media Management</h4>
+                  <p>
+                  Elevate your online presence with expert management of your social media platforms, driving engagement and growth through strategic content and interaction.
+                  </p>
+                </div>
+              </div>
+            </div>
+            {/* {/* <!--/END SINGLE SERVICE AREA-->} */}
+        
           </div>
         </div>
       </section>

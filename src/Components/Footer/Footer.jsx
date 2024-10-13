@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import FooterLogo from "../Assets/MALIK LOGO BIG.png";
 
 function Footer() {
   return (
@@ -13,7 +14,7 @@ function Footer() {
                   <i className="fas fa-map-marker-alt"></i>
                   <div className="cta-text">
                     <h4>Find us</h4>
-                    <span>Muzaffargarh,Malik Waqax home no.7</span>
+                    <span>Ghuri Town, Islamabad</span>
                   </div>
                 </div>
               </div>
@@ -22,7 +23,7 @@ function Footer() {
                   <i className="fas fa-phone"></i>
                   <div className="cta-text">
                     <h4>Call us</h4>
-                    <span>+923356863576</span>
+                    <span>+923452599798</span>
                   </div>
                 </div>
               </div>
@@ -31,7 +32,7 @@ function Footer() {
                   <i className="far fa-envelope-open"></i>
                   <div className="cta-text">
                     <h4>Mail us</h4>
-                    <span>waqas@info.com</span>
+                    <span>hushnexusspark@gmail.com</span>
                   </div>
                 </div>
               </div>
@@ -44,7 +45,7 @@ function Footer() {
                   <div className="footer-logo">
                     <a href="index.html">
                       <img
-                        src="https://i.ibb.co/QDy827D/ak-logo.png"
+                        src={FooterLogo}
                         className="img-fluid"
                         alt="logo"
                       />
@@ -52,14 +53,12 @@ function Footer() {
                   </div>
                   <div className="footer-text">
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
+                    A modern growth marketing firm powered by possibility pursuers,<br /> we invest in the best technology and expertise to drive results.
                     </p>
                   </div>
                   <div className="footer-social-icon">
                     <span>Follow us</span>
-                    <a href="#">
+                    <a href="https://www.facebook.com/profile.php?id=61566823841562">
                       <i className="fab fa-facebook-f facebook-bg"></i>
                     </a>
                     <a href="#">
@@ -81,14 +80,14 @@ function Footer() {
                       <a href="#">Home</a>
                     </li>
                     <li>
-                      <a href="#">About</a>
+                      <a href="#">Projects</a>
                     </li>
                     <li>
                       <a href="#">Services</a>
                     </li>
-                    <li>
+                    {/* <li>
                       <a href="#">Portfolio</a>
-                    </li>
+                    </li> */}
                     <li>
                       <a href="#">Contact</a>
                     </li>
@@ -104,9 +103,9 @@ function Footer() {
                     <li>
                       <a href="#">Contact Us</a>
                     </li>
-                    <li>
+                    {/* <li>
                       <a href="#">Latest News</a>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>
@@ -151,19 +150,7 @@ function Footer() {
                 <div className="footer-menu">
                   <ul>
                     <li>
-                      <a href="#">Home</a>
-                    </li>
-                    <li>
-                      <a href="#">Terms</a>
-                    </li>
-                    <li>
-                      <a href="#">Privacy</a>
-                    </li>
-                    <li>
-                      <a href="#">Policy</a>
-                    </li>
-                    <li>
-                      <a href="#">Contact</a>
+                      <a href="#"><i class="fa-solid fa-circle-arrow-up"></i></a>
                     </li>
                   </ul>
                 </div>

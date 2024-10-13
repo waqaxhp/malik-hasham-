@@ -7,6 +7,32 @@
   text-align: center;
   font-size: small;
 }
+
 .nav-heding p {
   width: 100px;
+}
+
+.logo-com {
+  /* width: 12vw;
+  height: 8vh; */
+  width: 185px;
+  height: 60px;
+}
+
+.nav-bar {
+
+  background-color: #343434;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0.3px);
+  position: fixed;
+  /* Make the nav bar fixed */
+  top: 0;
+  /* Position at the top */
+  left: 0;
+  /* Make sure it sticks to the left */
+  width: 100%;
+  /* Ensure the navbar takes up full width */
+  z-index: 1000;
+  /* Make sure the nav bar stays on top of other content */
+  text-decoration: none;
 }

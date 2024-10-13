@@ -3,14 +3,14 @@ ul {
     padding: 0px;
 }
 .footer-section {
-  background: #151414;
+  background: #343434;
   position: relative;
 }
 .footer-cta {
   border-bottom: 1px solid #373636;
 }
 .single-cta i {
-  color: #ff5e14;
+  color: #435EAB;
   font-size: 30px;
   float: left;
   margin-top: 8px;
@@ -20,13 +20,13 @@ ul {
   display: inline-block;
 }
 .cta-text h4 {
-  color: #fff;
+  color: #5CE1E6;
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 2px;
 }
 .cta-text span {
-  color: #757575;
+  color: #fff;
   font-size: 15px;
 }
 .footer-content {
@@ -45,12 +45,13 @@ ul {
   margin-bottom: 30px;
 }
 .footer-logo img {
-    max-width: 200px;
+    width: 18vw;
+    height: 12vh;
 }
 .footer-text p {
   margin-bottom: 14px;
   font-size: 14px;
-      color: #7e7e7e;
+      color: #ffff;
   line-height: 28px;
 }
 .footer-social-icon span {
@@ -74,13 +75,13 @@ ul {
   border-radius: 50%;
 }
 .facebook-bg{
-  background: #3B5998;
+  background: #435EAB;
 }
 .twitter-bg{
-  background: #55ACEE;
+  background: #435EAB;
 }
 .google-bg{
-  background: #DD4B39;
+  background: #435EAB;
 }
 .footer-widget-heading h3 {
   color: #fff;
@@ -96,7 +97,7 @@ ul {
   bottom: -15px;
   height: 2px;
   width: 50px;
-  background: #ff5e14;
+  background: #5CE1E6;
 }
 .footer-widget ul li {
   display: inline-block;
@@ -105,10 +106,10 @@ ul {
   margin-bottom: 12px;
 }
 .footer-widget ul li a:hover{
-  color: #ff5e14;
+  color: #5CE1E6;
 }
 .footer-widget ul li a {
-  color: #878787;
+  color: #ffff;
   text-transform: capitalize;
 }
 .subscribe-form {
@@ -125,9 +126,9 @@ ul {
 .subscribe-form button {
     position: absolute;
     right: 0;
-    background: #ff5e14;
+    background: #435EAB;
     padding: 13px 20px;
-    border: 1px solid #ff5e14;
+    border: 1px solid #435EAB;
     top: 0;
 }
 .subscribe-form button i {
@@ -136,25 +137,30 @@ ul {
   transform: rotate(-6deg);
 }
 .copyright-area{
-  background: #202020;
+  background: #343434;
   padding: 25px 0;
 }
 .copyright-text p {
   margin: 0;
   font-size: 14px;
-  color: #878787;
+  color: #ffff;
 }
 .copyright-text p a{
-  color: #ff5e14;
+  color: #5CE1E6;
 }
 .footer-menu li {
   display: inline-block;
-  margin-left: 20px;
+  margin-right: 10px;
 }
 .footer-menu li:hover a{
-  color: #ff5e14;
+  color: #5CE1E6;
+}
+.footer-menu li i{
+  font-size: 2rem;
+  color: #5CE1E6;
+  padding-left: 10px;
 }
 .footer-menu li a {
   font-size: 14px;
-  color: #878787;
+  color: #fff;
 }

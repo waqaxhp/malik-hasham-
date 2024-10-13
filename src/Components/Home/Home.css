@@ -4,33 +4,37 @@
   justify-content: left;
   justify-content: space-around;
   padding: 20px;
-  background-color: #f9f9f9;
-  height: 80vh;
+  background-color: #343434;
+  height:100vh;
+  font-size: clamp(1em, 0.1vw + 1vw, 3em);
+  margin-top: 10px;
+
 }
 
 .text-content {
   max-width: 500px;
+  padding-top: 60px;
 }
 
 .subheading {
   font-weight: bold;
-  color: #333;
+  color: #fff;
 }
 
 .heading {
-  font-size: 36px;
-  color: #006400;
+  font-size: 2.5em;
+  color: #5CE1E6;
   margin: 10px 0;
 }
 
 .paragraph {
   font-size: 16px;
-  color: #666;
+  color: #fff;
   margin-bottom: 20px;
 }
 
 .button {
-  background-color: #008000;
+  background-color: #435EAB;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -60,6 +64,9 @@
   }
 }
 @media (max-width: 445px) {
+  .home-component{
+    height: 150vh;
+  }
   .animation-container {
     max-width: 100px !important;
   }

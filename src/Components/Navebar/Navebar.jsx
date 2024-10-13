@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "../Assets/Aqua and Blue Modern Letter H Marketing Logo Design.png";
+import Logo from "../Assets/MALIK LOGO BIG.png";
 import "./Navebar.css";
 
 const Navbar = () => {
@@ -23,15 +23,15 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-teal-700 p-4">
+    <nav className="p-4 nav-bar" >
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo Section */}
         <div className="flex items-center">
-          <img src={Logo} alt="Logo" className="h-10 mr-2" />
-          <span className="text-white text-2xl font-bold">
+          <img src={Logo} alt="Logo" className="logo-com" />
+          {/* <span className="text-black text-2xl font-bold">
             HUSH NEXUS SPARK <br />
             <p className="nav-heding"> Markiting</p>
-          </span>{" "}
+          </span>{" "} */}
         </div>
 
         {/* Desktop Menu */}
@@ -43,7 +43,7 @@ const Navbar = () => {
               className={`text-white hover:text-yellow-500 transition duration-300 ease-in-out ${
                 activeLink === link
                   ? "text-yellow-500 font-bold"
-                  : "hover:underline"
+                  : ""
               }`}
               onClick={() => handleLinkClick(link)}
             >

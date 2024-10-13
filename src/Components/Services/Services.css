@@ -1,6 +1,8 @@
-section {
+#service {
   /* padding: 60px 0; */
-  min-height: 100vh;
+  height: auto;
+  background-color: #343434;
+  color: #fff;
 }
 
 a,
@@ -14,7 +16,7 @@ a:active {
 a,
 a:active,
 a:focus {
-  color: #6f6f6f;
+  color: #fff;
   text-decoration: none;
   transition-timing-function: ease-in-out;
   -ms-transition-timing-function: ease-in-out;
@@ -42,7 +44,7 @@ img {
 }
 
 .section_title h2 {
-  color: #333333;
+  color: #ffff;
   font-size: 25px;
   font-weight: 700;
   letter-spacing: 1.8px;
@@ -58,11 +60,11 @@ img {
 }
 .brand_border .fas.fa-handshake {
   font-size: 14px;
-  color: #000000;
+  color: #ffff;
 }
 
 .section_title p {
-  color: #333333;
+  color: #ffff;
   font-size: 14px;
   line-height: 25px;
   padding: 14px 0;
@@ -71,6 +73,7 @@ img {
 .choose_us .section_title {
   margin-top: 45px;
 }
+
 #service .single_service {
   padding: 32px;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
@@ -80,11 +83,10 @@ img {
 #service .single_service:hover {
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
 }
-
 #service .icon {
-  border: 1px solid #666;
+  border: 1px solid #5CE1E6;
   border-radius: 5%;
-  color: #333333;
+  /* color: #1BAE70; */
   font-size: 35px;
   line-height: 65px;
   overflow: hidden;
@@ -101,7 +103,7 @@ img {
   font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #000;
+  /* color: #000; */
 }
 
 .single_service-body p {
@@ -114,7 +116,7 @@ img {
   vertical-align: top;
 }
 .single_service-body {
-  color: #333333;
+  /* color: #333333; */
   display: table-cell;
   vertical-align: top;
 }
@@ -126,6 +128,10 @@ img {
   box-shadow: 0 0 1px transparent;
   position: relative;
 }
+.icon i{
+  color: #fff;
+ }
 #service .single_service:hover {
-  background: #57d4f3 none repeat scroll 0 0;
+  background: #435EAB none repeat scroll 0 0;
 }
+

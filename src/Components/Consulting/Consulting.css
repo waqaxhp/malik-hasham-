@@ -3,7 +3,7 @@
   position: relative;
   text-align: center;
   padding: 50px 0;
-  background-color: #f9f9f9;
+  background-color: #fff;
 }
 
 .clients h2 {
@@ -21,14 +21,14 @@
 }
 
 .clients-slide {
-  min-width: 150px; /* Adjust according to your image sizes */
+  min-width: 10px; /* Adjust according to your image sizes */
   margin-right: 20px; /* Space between images */
   flex-shrink: 0; /* Prevent shrinking */
 }
 
 .clients-slide img {
   width: 100%; /* Make the image responsive */
-  height: auto; /* Maintain aspect ratio */
+  height: 15vh; /* Maintain aspect ratio */
 }
 
 @keyframes scroll {
@@ -49,9 +49,12 @@
 
 /* Hero section styles */
 .clients-hero {
-  background-image: url('../Assets/st_about_accordian.jpg');
-  background-size: cover; 
+  background-image: url('../Assets/Consulting-bg.jpg');
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   height: 60vh;
   display: flex;
   justify-content: center;
