@@ -6,6 +6,7 @@ import Footer from './Components/Footer/Footer.jsx'
 import Projects from './Components/Projects/Projects.jsx'
 import Services from './Components/Services/Services.jsx'
 import Consulting from './Components/Consulting/Consulting.jsx'
+import ContactUs from './Components/ContactUS/ContactUs.jsx'
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
 
       <section id="consulting">
         <Consulting />
+      </section>
+      <section id="ContactUs">
+        <ContactUs/>
       </section>
 
       {/* Footer */}

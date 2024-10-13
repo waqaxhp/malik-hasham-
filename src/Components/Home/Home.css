@@ -68,6 +68,7 @@
     height: 150vh;
   }
   .animation-container {
-    max-width: 100px !important;
+    align-items: center;
+    max-width: 200px !important;
   }
 }
