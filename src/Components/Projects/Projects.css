@@ -24,6 +24,11 @@ backdrop-filter: blur(0.3px);
 .rating-project i {
   font-size: 3rem;
 }
+@media (max-width: 768px) {
+  .first-i {
+    display: none;
+  }
+}
 
 /* .scrole-test-div {
   height: 800px;
