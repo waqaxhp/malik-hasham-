@@ -78,7 +78,7 @@ const Navbar = () => {
                 Contact
               </a>
               <a
-                href="#resource3"
+                href="#ContactUs"
                 className="block px-4 py-2 text-gray-700 hover:bg-teal-100"
               >
                 Career
@@ -150,7 +150,7 @@ const Navbar = () => {
                 Contact
               </a>
               <a
-                href="#resource3"
+                href="./contact"
                 className="block px-4 py-2 text-gray-700 hover:bg-teal-100"
               >
                 Career
