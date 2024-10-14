@@ -9,6 +9,7 @@ import Services from './Components/Services/Services.jsx'
 import Consulting from './Components/Consulting/Consulting.jsx'
 import ContactUs from './Components/ContactUS/ContactUs.jsx'
 import Quality from './Components/Quality/Quality.jsx'
+import Consultants from './Components/Consultants/Consultants.jsx'
 
 
 function App() {
@@ -37,6 +38,10 @@ function App() {
       <section id='quality'>
         <Quality/>
       </section>
+      
+      <section id="consultants">
+        <Consultants />
+      </section> 
 
       <section id="consulting">
         <Consulting />
