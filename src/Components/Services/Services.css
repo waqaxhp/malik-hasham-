@@ -1,8 +1,8 @@
 #service {
   /* padding: 60px 0; */
   height: auto;
-  background-color: #343434;
-  color: #fff;
+  background-color: #B2D4E0;
+  color: black;
 }
 
 a,
@@ -16,7 +16,7 @@ a:active {
 a,
 a:active,
 a:focus {
-  color: #fff;
+  color: black;
   text-decoration: none;
   transition-timing-function: ease-in-out;
   -ms-transition-timing-function: ease-in-out;
@@ -44,7 +44,7 @@ img {
 }
 
 .section_title h2 {
-  color: #ffff;
+  color: black;
   font-size: 25px;
   font-weight: 700;
   letter-spacing: 1.8px;
@@ -52,7 +52,7 @@ img {
 }
 
 .brand_border .fa.fa-minus {
-  color: #fff;
+  color: black;
   font-size: 8px;
   height: 2px;
   background: #f8c01b none repeat scroll 0 0;
@@ -60,11 +60,11 @@ img {
 }
 .brand_border .fas.fa-handshake {
   font-size: 14px;
-  color: #ffff;
+  color: black;
 }
 
 .section_title p {
-  color: #ffff;
+  color: black;
   font-size: 14px;
   line-height: 25px;
   padding: 14px 0;
@@ -84,7 +84,7 @@ img {
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
 }
 #service .icon {
-  border: 1px solid #5CE1E6;
+  border: 1px solid #5ce1e6;
   border-radius: 5%;
   /* color: #1BAE70; */
   font-size: 35px;
@@ -128,10 +128,9 @@ img {
   box-shadow: 0 0 1px transparent;
   position: relative;
 }
-.icon i{
-  color: #fff;
- }
-#service .single_service:hover {
-  background: #435EAB none repeat scroll 0 0;
+.icon i {
+  color: black;
 }
-
+#service .single_service:hover {
+  background: #435eab none repeat scroll 0 0;
+}
