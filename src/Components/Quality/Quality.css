@@ -1,0 +1,109 @@
+/* Main container for the entire section */
+.quality-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 3rem;
+  margin: 0 auto;
+  background-color: #343434;
+}
+
+/* Left section styles */
+.left-content {
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+  margin-right: 2rem;
+}
+
+.left-content h1 {
+  font-size: 2.5rem;
+  color: #435EAB;
+}
+
+.left-content p {
+  font-size: 1rem;
+  color: #fff;
+  margin-top: 1rem;
+}
+
+.illustration {
+  max-width: 100%;
+  height: auto;
+  margin-top: 2rem;
+}
+
+/* Right section (Cards) */
+.right-content {
+  display: flex;
+  flex-wrap: wrap; /* Wrap cards */
+  justify-content: flex-start; /* Align to start */
+  flex: 0.5;
+}
+
+/* Card Styles */
+.card {
+  background-color: #435EAB;
+  color: #fff;
+  width: 300px; /* Fixed width of 300px */
+  height: 400px; /* Fixed height of 400px */
+  padding: 2rem;
+  margin: 1rem; /* Add margin for spacing */
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  flex: 0 1 calc(50% - 2rem); /* 2 cards per row minus margin */
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.card h3 span {
+  color: #fbc02d;
+}
+
+.card p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .quality-container {
+      flex-direction: column;
+      padding: 1rem;
+  }
+
+  .left-content {
+      margin-bottom: 2rem;
+  }
+
+  .right-content {
+      justify-content: center; /* Center cards on small screens */
+  }
+
+  .card {
+      flex: 0 1 100%; /* Full width for cards on small screens */
+      margin: 0.5rem 0; /* Add some vertical spacing */
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .card {
+      flex: 0 1 calc(50% - 2rem); /* 2 cards per row on medium screens */
+  }
+}
+
+@media (min-width: 1025px) {
+  .card {
+      flex: 0 1 calc(50% - 2rem); /* 2 cards per row on large screens */
+  }
+}
