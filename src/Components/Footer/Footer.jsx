@@ -16,7 +16,7 @@ function Footer() {
                     <h4>Find us</h4>
                     <span>
                       Office No 2 first floar ghauri plaza <br /> kalma chowk
-                      ghauri town islambad
+                      ghauri town islamabad
                     </span>
                   </div>
                 </div>
