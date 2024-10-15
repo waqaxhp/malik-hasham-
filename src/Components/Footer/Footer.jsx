@@ -14,7 +14,10 @@ function Footer() {
                   <i className="fas fa-map-marker-alt"></i>
                   <div className="cta-text">
                     <h4>Find us</h4>
-                    <span>Ghuri Town, Islamabad</span>
+                    <span>
+                      Office No 2 first floar ghauri plaza <br /> kalma chowk
+                      ghauri town islambad
+                    </span>
                   </div>
                 </div>
               </div>
@@ -44,16 +47,15 @@ function Footer() {
                 <div className="footer-widget">
                   <div className="footer-logo">
                     <a href="index.html">
-                      <img
-                        src={FooterLogo}
-                        className="img-fluid"
-                        alt="logo"
-                      />
+                      <img src={FooterLogo} className="img-fluid" alt="logo" />
                     </a>
                   </div>
                   <div className="footer-text">
                     <p>
-                    A modern growth marketing firm powered by possibility pursuers,<br /> we invest in the best technology and expertise to drive results.
+                      A modern growth marketing firm powered by possibility
+                      pursuers,
+                      <br /> we invest in the best technology and expertise to
+                      drive results.
                     </p>
                   </div>
                   <div className="footer-social-icon">
@@ -150,7 +152,9 @@ function Footer() {
                 <div className="footer-menu">
                   <ul>
                     <li>
-                      <a href="#"><i class="fa-solid fa-circle-arrow-up"></i></a>
+                      <a href="#">
+                        <i class="fa-solid fa-circle-arrow-up"></i>
+                      </a>
                     </li>
                   </ul>
                 </div>

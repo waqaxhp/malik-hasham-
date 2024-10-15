@@ -81,6 +81,13 @@ const Navbar = () => {
               >
                 Contact Us
               </a>
+              <a
+                href="#findUs"
+                className="block px-4 py-2 text-gray-700 hover:bg-teal-100"
+                onClick={() => handleLinkClick("ContactUs")}
+              >
+                Find Us
+              </a>
             </div>
           </div>
         </div>

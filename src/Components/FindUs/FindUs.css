@@ -1,0 +1,58 @@
+.contactus-box {
+  width: 100%;
+  height: 30vh;
+  color: #c0c0c0;
+  text-align: center;
+}
+
+.section-find h1 {
+  color: #0e4b84;
+  font-size: 48px;
+  margin: 2% 0%;
+  font-family: "Poppins";
+}
+.section-find p {
+  color: #696984;
+  font-size: 20px;
+}
+.items {
+  width: 100%;
+  height: 300px;
+  color: #0e4b84;
+}
+
+.items a {
+  text-decoration: none;
+  color: black;
+}
+
+.items img {
+  width: 60px;
+  height: 60px;
+}
+
+.location-box {
+  width: 33%;
+  height: 150px;
+  border-right: 2px solid #c0c0c0;
+}
+
+.phonenumber-box {
+  width: 33%;
+  height: 150px;
+  border-right: 2px solid #c0c0c0;
+}
+
+.email-box {
+  width: 33%;
+  height: 150px;
+}
+
+.map {
+  width: 100% !important;
+}
+@media (max-width: 768px) {
+  .email-box a p {
+    font-size: small;
+  }
+}

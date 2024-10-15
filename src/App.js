@@ -9,6 +9,7 @@ import Consulting from './Components/Consulting/Consulting.jsx';
 import ContactUs from './Components/ContactUS/ContactUs.jsx';
 import Quality from './Components/Quality/Quality.jsx';
 import Consultants from './Components/Consultants/Consultants.jsx';
+import FindUs from './Components/FindUs/FindUs.jsx';
 
 function App() {
   return (
@@ -42,7 +43,7 @@ function App() {
       <section id="contactUs">
         <ContactUs/>
       </section>
-
+<FindUs/>
       <Footer />
     </div>
   );
